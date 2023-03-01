@@ -1,6 +1,6 @@
-# My Portfolio
+# My Portfolio 🦄
 
-## Instructions
+## Instructions 🤓
 
 Start a local development web server, by opening a new terminal window (e.g., terminal or iterm)
 
