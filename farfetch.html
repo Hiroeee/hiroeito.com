@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>"Farfetch" UX/UI case study</title>
+        <link rel="icon" type="image/x-icon" href="static/imgs/circle.png">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="UX, UI, product, web, designer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/reset.css">
+        <link rel="stylesheet" href="static/css/style.v2.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script>
+            document.addEventListener('scroll', () => {
+                if (window.scrollY <= 1200) {
+                    document.querySelector('.footer-scroll a').classList.add('hide')
+                } else {
+                    document.querySelector('.footer-scroll a').classList.remove('hide')
+                }
+            });
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+           })(window,document,'script','dataLayer','GTM-533W5JJ');</script>
+           <!-- End Google Tag Manager -->
+           <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-C523N4LTXL"></script>
+        <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-C523N4LTXL');
+        </script>   
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-533W5JJ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <span class="circle-logo"></span>
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Case study</a>
+                    </li>
+                    <li>
+                        <a href="about-me.html">About</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1AkcGe9_hl-kHi8liKCEJ0oyarJIPrNSs/view" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="mailto:h.hiroe.ito@gmail.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="case-hero">
+                <div class="col-center hero-img-container">
+                    <img src="static/imgs/farfetch/flat.png" alt="Farfetch hero image">
+                </div>
+                <div class="head-text-box">
+                    <h1>Farfetch</h1>
+                    <p>Designing the recycling option experience - UX/UI design</p>
+                </div>
+                <div class="category-tag">
+                        <div class="category-box">
+                            <a id="category-button">Design Thinking </a><a id="category-button" href="#lit">Lit review</a><a id="category-button" href="#interview">User interview</a><a id="category-button" href="#persona">Persona</a><a id="category-button" href="#story">User story</a><a id="category-button" href="#competitive">Competitive analysis</a>
+                        </div>
+                        <div class="category-box">
+                            <a id="category-button" href="#hmw">How might we?</a><a id="category-button" href="#flow">User flow</a><a id="category-button" href="#lofi">Lofi-wireframes</a><a id="category-button" href="#prototype">Interactive prototype</a><a id="category-button" href="#usability">Usability study</a><a id="category-button" href="#copy">UX copy</a>
+                        </div>
+                </div>
+                <div class="case-desc-container">
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Where:</h4><p>London</p>
+                        </div>
+                    </div>  
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>What:</h4><p>Mobile app</p>
+                        </div>
+                    </div> 
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Why:</h4><p>Portfolio project</p>
+                        </div>
+                    </div> 
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Role:</h4><p>Designer, Researcher</p>
+                        </div>
+                    </div> 
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Category:</h4><p>E-commerce, Shopping</p>
+                        </div>
+                    </div> 
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>When:</h4><p>Oct - Nov 2022</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>    
+            <div class="content-container">
+                <div class="text-box-left">
+                    <div class="text-l">
+                        <h4>Problem:</h4><p>We love clothes…but the global fashion industry is in big trouble - Sustainability is an urgent topic of action for the industry!</p>
+                    </div>
+                    <div class="text-l">
+                        <h4>Goal:</h4>
+                        <p>1) Minimise the time spent on adding the recycling choice. It should not disturb its existing workflow.</p>
+                        <p>2) Increase conversion rate through the recycling item scheme.</p>
+                    </div>
+                    <div class="text-l">
+                        <h4>Design process:</h4><p>I implemented design thinking to encourage positive behaviours on the environmental problem that the fashion industry holds.</p>
+                    </div>
+                    <div class="text-l">
+                        <p>*This case study is an unsolicited design project and part of the Design challenge from productdesign. tips.</p>
+                    </div>
+                </div>
+                <div class="work-item">
+                    <div class="col-case-r hero-img-container">
+                       <img src="static/imgs/farfetch/report.png" alt="Sustainability report">
+                   </div>
+                </div>
+            </div>    
+            <div class="challenge-container">
+                <div class="title-text-box">
+                    <h5>Challenge:</h5>
+                    <h3>How might we design checkout screens for an e-commerce app to help people recycle the goods they buy?</h3>
+                </div>
+            </div>
+            <div class="emphasize">
+                <div class="title-text-box">
+                    <h1>Empathize</h1>
+                </div>
+                <div class="smaller-container" id="lit">
+                    <div class="text-box">
+                        <h5>During the empathise phase, I conducted a lit review and user interviews to get more insights into the topic: 
+                            users, companies, and market landscape. It was essential to take all of the factors when proposing the experience.
+                        </h5>
+                    </div>
+                </div>
+                <div class="smaller-container">
+                    <div class="column-container">
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h4>📈 Trends and patterns </h4>
+                                <h5>▫️ Consumers are keen to resale and purchase second-hand items that idea is becoming a norm.</h5>
+                                <h5>▫️ 74% of consumers expect brands to act environmentally responsible.</h5>
+                             </div>
+                        </div>
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h4>💡 Themes</h4>
+                                <h5>▫️ Recirculating clothes is up to 3.000% more efficient in their footprint reduction than reusing material.</h5>
+                            </div>
+                        </div>
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h4>💥 Conflicts </h4>
+                                <h5>▫️ When purchasing new items, pricing and brand value are still strong shopping motivations for users.</h5>
+                            </div>
+                        </div>
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h4>☝️ Gaps and weaknesses </h4>
+                                <h5>▫️ Large multi-brand e-retailers have much slower inventory turnover rates than reselling websites.</h5>
+                                <h5>▫️ FARFETCH's Conscious collection sales grew 1.8 times faster than its average in 2021.</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general-container" id="interview">
+                    <div class="title-text-box">
+                        <div class="smaller-container">
+                            <h3>-The highlight of the user interview:</h3>  
+                        </div>
+                        <div class="col-center hero-img-container">
+                                <img src="static/imgs/farfetch/user-comments.png" alt="Interview highlight">
+                        </div>
+                    </div>
+                </div>
+                <div class="title-text-box">
+                    <h3>-Platform:</h3>  
+                    <div class="smaller-container">
+                        <h5>FARFETCH, a global online destination for luxury fashion with strong user engagement, is one of the few companies that emphasise the importance of sustainability out loud.</h5>
+                    </div> 
+                    <div class="smaller-container">    
+                        <h5>♻️ The Positively FARFETCH program.</h5>
+                        <h5>👜 Their 3.6 million consumers focus on buying quality pieces with longevity.</h5>
+                        <h5>🙋‍♀️ The company see the demand for luxury pre-owned goods.</h5>
+                    </div>
+                    <h5>
+                        However, there is no integrated system to help users recycle the items they purchase on the platform.<br>
+                        For this reason, I pick them to find a way to encourage more sustainability on a fashion e-commerce platform for this case study.
+                    </h5>
+                </div>
+                <div class="col-center hero-img-container">
+                    <img src="static/imgs/farfetch/company-info.png" alt="Company Information">
+                </div>
+            </div> 
+            <div class="define">
+                <div class="general-container" id="persona">
+                    <div class="title-text-box">
+                        <h1>Define</h1>
+                        <h3>-Personas:</h3>
+                        <h5>From the research findings, I was able to generate adhesive narratives for our key personas.</h5>
+                    </div>    
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/persona1.jpg" alt="Persona 1">
+                    </div> 
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/persona2.jpg" alt="Persona 2">
+                    </div> 
+                </div>
+                <div class="title-text-box" id="story">
+                    <h3>-User story:</h3>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/user-story1.png" alt="User story 1">
+                    </div> 
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/user-story2.png" alt="USer story 2">
+                    </div> 
+                </div>    
+            </div>
+            <div class="define" id="hmw">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Ideate</h1>
+                        <h5>Now, we are ready to generate ideas!<br>
+                            I made “How might we” questions to open up creative thinking for a better user experience design.</h5>
+                    </div>  
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/how-might-we.png" alt="How might we?">
+                    </div> 
+                </div>
+                <div class="general-container" id="competitive">
+                    <div class="title-text-box">
+                        <h3>-Business / Competitive analysis:</h3>
+                        <h5>Also, I analysed four direct and indirect competitors for their sustainability activities which gave me a deep understanding of the current market opportunities.</h5>
+                    </div>  
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/competitive.png" alt="`Competitive analysis">
+                    </div> 
+                </div>
+                <div class="general-container">  
+                    <div class="title-text-box">
+                        <h3>-Oportunities identified:</h3>
+                        <h5>1. Room to grow in second-hand business</h5>
+                        <h5>2. Most fashion e-com businesses heavily focus on selling new garments. As the statics showed, demand for resale is glowing; Vestiaire Collective have a much shorter age of stock online only 5% have listed for over a year. Whereas, a luxury e-competitor, 34% of products available have been online for over a year.</h5>   
+                        <h5>3. Introduce a new feature to users.</h5>
+                        <h5>4. None of the competitors has recycling options in the checkout section. Users have a huge advantage of getting a FARFETCH credit for the easy recycling option. For the company, it is an efficient way to sufficient the second-hand item stocks from its users.</h5>    
+                        <h5>5. Becoming a true sustainability leader in the industry.</h5>   
+                        <h5>6. Some companies set and show sustainability goals only on corporate sites(often, do not share them on the product page or checkout).</h5>    
+                        <h5>7. Less business risk to start selling second-hand</h5>   
+                        <h5>8. Some reselling platforms have serious brand authentication problems. Integrating a new feature with the customer purchase history data will massively help this issue. Offering new and recycled items means that they can expand the product varieties and price range. It eventually attracts both luxury and new audiences to their business.</h5>  
+                    </div>
+                </div>
+                <div class="title-text-box" id="flow">
+                    <h3>-User flow:</h3>
+                    <h5>The checkout process is the focal point for all companies that generate profits.
+                        I created a recycling option user flow that should not disturb its existing workflow, especially at the checkout screen.
+                    </h5>
+                    <div class="daily-container">
+                        <a id="button" href="https://www.figma.com/file/Y77GU8jAdyV2FNJ98e6XWQ/Customer-journey-touch-point---FARFETCH?node-id=0%3A1&t=zZ1GLn3uloisRJP1-1" target="_blank">View user flow</a>
+                    </div>
+                </div>
+                <div class="col-center hero-img-container">
+                    <img src="static/imgs/farfetch/customer-journey.jpg" alt="User flow">
+                </div> 
+            </div>
+            <div class="define" id="lofi">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Prototype</h1>
+                        <h3>-Rough wireframes:</h3>
+                        <h5>Sketches of the early mockups. Taking the time to draft iterations of the app screens on paper ensured that all the elements that made it to the digital wireframes would be well-suited to the project goals.</h5>
+                    </div> 
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/sketch.png" alt="`Rough wireframes">
+                    </div> 
+                </div>
+                <div class="title-text-box">
+                    <h3>-Mid-fidelity prototype:</h3>
+                    <h5>Then, I made mid-fidelity wireframes using Figma.
+                        The screens are based on the sketch I designed and connected as a prototype for the usability test!</h5>
+                </div> 
+                <div class="col-center hero-img-container">
+                    <img src="static/imgs/farfetch/mid-fidelity.png" alt="`Mid-Fidelity wireframes">
+                </div>
+            </div> 
+            <div class="define" id="usability">
+                <div class="title-text-box">
+                    <div class="smaller-container">
+                        <h1>Test</h1>
+                        <h3>-Usability study findings:</h3>
+                        <h5>I conducted an unmonitored usability study that requested 5 users to perform tasks in a digital mockup.</h5>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <div class="work-item">
+                        <div class="title-text-box">
+                            <h4>☝️ Round 1 findings:</h4>
+                            <h5>▫️ The recycling section at the checkout page annoyed users. It distracts from focusing on the purchase process.<br>
+                                ▫️ The banner placement on the product pages was effective but users felt it was unobtrusive.
+                            </h5> 
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <div class="title-text-box">
+                            <h4>✌️ Round 2 findings:</h4>
+                            <h5>▫️ The banner with a visual worked well to motivate users.<br>
+                                ▫️ The second design took up a space which might disturb the shopping experience.
+                            </h5>    
+                        </div>
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h3>-Refine the design:</h3>
+                    </div>
+                    <div class="xsmaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/farfetch/checkout.png" alt="`Refined design 1">
+                        </div>
+                    </div>
+                    <div class="title-text-box">
+                        <h4>-Checkout screens flow:</h4>
+                        <h5>⚠️ The first checkout design has another recycling page to confirm the service.<br> This extra flow at the checkout page annoyed users as it distracted them from focusing on the purchase process.</h5>    
+                        <h5>⚠️ For a better and more straightforward user experience, I made the checkbox component that includes a Learn more link for the service description page. The checkbox aligns with the promotional code section which eases the checkout flow. Users feel they have more control over the recycling feature.</h5>    
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="xsmaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/farfetch/banner-badge.png" alt="`Refined design 2">
+                        </div>
+                    </div>
+                    <div class="title-text-box">
+                        <h4>-Banners vs Badges:</h4>
+                        <h5>⚠️ The first banner tried to be subtle on the product page. Its placement on the pages was effective but users felt the design was unobtrusive.</h5>    
+                        <h5>⚠️ Instead, I changed to a visual banner-like component to attract users. This design motivated users and worked well. However, it looks like a marketing campaign that takes up more space which might disturb the shopping experience. The title changed from “Positively FARFETCH” to “Second life” which users can easily guess the nature of the service.</h5>    
+                        <h5>⚠️ Going deep to improve the design, I inspected the current app design again. I noticed a product title used either the New season or Conscious if the product is sustainable. These words provoke customer motivation high. However, both copies can't go together in one line due to space and business prioritisation which is a problem. I created badges for the sustainability category that works copies placement well altogether. Users love them because of their simplicity yet easy recognition with the icon. For a better and more inclusive user experience, the badge is clickable and connects to the FAQs page.</h5>    
+                        
+                    </div>
+                </div>
+                <div class="xsmaller-container">
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/ux-copy.png" alt="`Refined design 3">
+                    </div>   
+                </div>
+                <div class="title-text-box" id="copy">
+                    <h4>UX copy:</h4>
+                    <h5>⚠️ Change the generic title to a motivational copy. Add the buzzword on the checkbox description - get credit- to trigger extra user attention. The second copy has more tone of company voice/character.</h5>
+                </div>
+            </div>
+            <div class="define">
+                <div class="title-text-box">
+                    <h1>Final design</h1>
+                    <h3>-Main features:</h3>
+                </div>
+                <div class="general-container">
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/farfetch/design-refine1.png" alt="`Check box"/>
+                        <img src="static/imgs/farfetch/design-refine2.png" alt="Badges"/>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <div class="work-item">
+                        <div class="title-text-box" id="prototype">
+                            <h3>-High-fidelity designs:</h3>
+                            <h5>The final high-fidelity prototype presented interactive user flows for the recycling option for smooth checkout.</h5>
+                            <a id="button" href="https://www.figma.com/file/IXza55BElgiEcEssZGCY3g/FARFETCH--Designing-the-recycling-option-experience?node-id=0%3A1&t=TEalV268BJBZFLew-1" target="_blank">View wireframes</a>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <video width="600" height="600" autoplay muted loop>
+                            <source src="static/imgs/farfetch/prototype.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+            <div class="define">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <div class="smaller-container">
+                            <h1>Conclusion</h1>
+                            <h5>Designing the business goals with UX strategy and the user's needs required great effort in this case study.
+                                Although users prefer a straightforward design for smooth checkout, even so, they demand all the beneficial info like discounts or credits on the page that push the shopping mood up. I had to carefully iterate a smooth and reliable shopping experience since the checkout process is a focal point for all companies that generate profits.
+                            </h5>    
+                        </div>
+                        <h5>UX microcopy was also one of the key learning in this case study.
+                            I had to consider very short and effective UX microcopies with the tone of brand voice to align the company image/identity.
+                            Overall, users responded very positively to the recycling feature. They were motivated by the small icon badge that is eye-catching through the app which also helped the smooth checkout flow. As a result, 4 out of 5 test users desired to use the recycling service I designed.
+                        </h5>
+                    </div> 
+                    <div class="col-center hero-imag-container">
+                        <img src="static/imgs/farfetch/flat-stand.png" alt="Farfetch app images">
+                    </div>
+                </div>
+                <div class="title-text-box">
+                    <h3>References:</h3>
+                </div>
+                <div class="ref-container">
+                    <div class="ref-row-container">
+                        <div class="title-text-box">
+                            <h5>Continued™</h5>
+                            <a class="button" href="https://continued.fashion/" target="_blank">Link</a>
+                        </div>
+                        <div class="title-text-box">
+                            <h5>Hypebeast<br>
+                                Can Resale Fix Fashion's<br>
+                                Sustainability Crisis?</h5>
+                            <a class="button" href="https://hypebeast.com/2022/11/resale-sustainability-circularity-fashion-gen-z-consumer-edited-research-statistics?utm_campaign=ig_bio&utm_medium=social&utm_source=instagram" target="_blank">Link</a>
+                        </div>
+                        <div class="title-text-box">
+                            <h5>Cottonbro<br>
+                                Pexels<br>
+                                Model pictures</h5>
+                        </div>
+                    </div>
+                    <div class="ref-row-container">
+                        <div class="title-text-box">
+                            <h5>Edited<br>
+                                The Current State of<br>
+                                the Resale Market
+                            </h5>
+                            <a class="button" href="https://blog.edited.com/blog/resale-market-analysis" target="_blank">Link</a>
+                        </div>
+                        <div class="title-text-box">
+                            <h5>
+                                Our World in Data<br>
+                                Climate change and flying:<br>
+                                what share of global CO2 emissions<br>
+                                comes from aviation?
+                            </h5>
+                            <a class="button" href="https://ourworldindata.org/co2-emissions-from-aviation" target="_blank">Link</a>
+                        </div>
+                        <div class="title-text-box">
+                            <h5>
+                                Katie Rodriguez<br>
+                                Unsplash<br>
+                                Landfill picture
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="ref-row-container">
+                        <div class="title-text-box">
+                            <h5>FARFETCH<br>
+                                Conscious Luxury 22</h5>
+                            <a class="button" href="https://stories.farfetch.com/consciousluxurytrends2022/?_ga=2.92490269.1029872086.1669137989-1769730520.1666012795&_gac=1.188634330.1668183921.Cj0KCQiAgribBhDkARIsAASA5bsFnZYCV7DL-nJuWhgQgMXItYQWQXjYG7JTQzpJi0WWl3w-YZ-v6j8aAjeGEALw_wcB&_gl=1%2Aam019y%2A_ga%2AMTc2OTczMDUyMC4xNjY2MDEyNzk1%2A_ga_CEF7PMN9HX%2AMTY2OTEzNzk4OS4yMy4xLjE2NjkxMzc5OTQuNTUuMC4w" target="_blank">Link</a> 
+                        </div>
+                        <div class="title-text-box">
+                            <h5>
+                                Vogue business<br>
+                                How do you rank on sustainability?<br>
+                                Farfetch will tell you
+                            </h5>
+                            <a class="button" href="https://www.voguebusiness.com/sustainability/how-do-you-rank-on-sustainability-farfetch-will-tell-you#:~:text=Brands%20rated%20highly%20will%20in,wider%20industry%20later%20this%20year." target="_blank">Link</a>
+                        </div>
+                        <div class="title-text-box">
+                            <h5>
+                                Laura Chouette<br>
+                                Unsplash<br>
+                                Product picture
+                            </h5>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <hr>
+            <div class="daily-container">
+                <div class="footer-container">
+                    <div class="footer-text-box">  
+                        <h1 class="title-grad-short">Get in touch!</h1>
+                        <a href="mailto:h.hiroe.ito@gmail.com">h.hiroe.ito@gmail.com</a>
+                    </div>
+                    <div class="footer-text-box">
+                        <a id="button" href="https://drive.google.com/file/d/1AkcGe9_hl-kHi8liKCEJ0oyarJIPrNSs/view" target="_blank">Resume<i class="material-icons">call_made</i></a>
+                    </div>
+                </div>
+                <div class="footer-scroll">
+                    <a href="#">
+                        <img src="static/imgs/scroll-up.png" alt="scroll-up">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+          <img src="static/imgs/name.jpg" alt="name">
+        </div>
+    </body>
+</html>
