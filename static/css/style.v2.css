@@ -35,9 +35,13 @@ body {
   height: 100%;
 }
 
+.logo-container a {
+  display: inline-block;
+}
+
 .circle-logo {
   background: linear-gradient(155.32deg, #8AFF48 11.55%, #E1FF89 83.51%);
-  width: 100%;
+  width: 24px;
   height: 24px;
   border-radius: 50%;
   display: inline-block;
@@ -506,7 +510,7 @@ hr {
 .footer-scroll a {
   position: fixed;
   bottom: 50px;
-  z-index: 999;
+  z-index: 10;
   transition: opacity 0.3s;
 }
 
@@ -776,7 +780,6 @@ hr {
     padding: 0px;
   }
   
-  
   .portfolio-container {
     grid-template-columns: 1fr;
     padding-top: 40px;
@@ -803,5 +806,140 @@ hr {
   }
   .intro-text-box p {
     font-size: 32px;
+  }
+}
+
+.menu-toggler {
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 685px) {
+  .header {
+    height: auto;
+  }
+  .menu {
+    height: auto;
+    z-index: 999;
+  }
+  .menu::before {
+    content: " ";
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    background: rgba(255, 255, 255, 0.94);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .menu ul {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 72px 20px 0px 20px;
+    height: auto;
+    position: relative;
+    text-align: right;
+    z-index: 10;
+  }
+
+  .menu-toggler .line {
+    width: 40px;
+    height: 1px;
+    background: #000;
+  }
+
+  .menu-toggler .line:nth-child(1) {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: rotate(45deg);
+  }
+
+  .menu-toggler .line:nth-child(2) {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    transform: rotate(-45deg);
+  }
+
+  .menu ul li {
+    margin: 0;
+  }
+
+  .menu ul li a {
+    line-height: 2.2;
+    font-size: 32px;
+  }
+
+  .menu[data-open="0"] ul {
+    display: none;
+  }
+
+  .menu[data-open="1"] ul {
+    display: flex;
+  }
+
+  .menu[data-open="0"]::before {
+    display: none;
+  }
+
+  .menu-toggler {
+    display: block;
+    position: relative;
+    z-index: 999;
+    width: 40px;
+    height: 30px;
+    margin: 20px;
+  }
+
+  .menu[data-open="0"] .menu-toggler .line {
+    transform: rotate(0);
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+
+  .menu[data-open="0"] .menu-toggler .line:nth-child(1) {
+    top: 0;
+  }
+
+  .menu[data-open="0"] .menu-toggler .line:nth-child(2) {
+    top: calc(50% - 1px);
+  }
+
+  .menu[data-open="0"] .menu-toggler .line:nth-child(3) {
+    bottom: 0;
+  }
+
+  .menu[data-open="1"] .menu-toggler {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .menu[data-open="1"] .line {
+    top: 20px;
+    right: 0;
+  }
+
+  .header {
+    height: 70px;
+  }
+
+  .logo-container {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-container a {
+    margin-left: 20px;
+  }
+
+  .circle-logo {
+    margin: 0;
   }
 }

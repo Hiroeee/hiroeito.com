@@ -16,12 +16,25 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script>
-            document.addEventListener('scroll', () => {
-                if (window.scrollY <= 1200) {
-                    document.querySelector('.footer-scroll a').classList.add('hide')
-                } else {
-                    document.querySelector('.footer-scroll a').classList.remove('hide')
-                }
+            window.addEventListener('load', function () {
+                document.addEventListener('scroll', () => {
+                    if (window.scrollY <= 1200) {
+                        document.querySelector('.footer-scroll a').classList.add('hide')
+                    } else {
+                        document.querySelector('.footer-scroll a').classList.remove('hide')
+                    }
+                });
+
+                document.querySelector('.menu-toggler').addEventListener('click', () => {
+                    menu = document.querySelector('.menu');
+                    menuToggler = document.querySelector('.menu-toggler');
+
+                    let status = menu.getAttribute('data-open') === "1" ? 0 : 1;
+
+                    console.log(status);
+
+                    menu.setAttribute('data-open', status);
+                });
             });
         </script>
         <!-- Google Tag Manager -->
@@ -51,19 +64,24 @@
                     <span class="circle-logo"></span>
                 </a>
             </div>
-            <div class="menu">
+            <div class="menu" data-open="0">
+                <div class="menu-toggler">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
                 <ul>
                     <li>
-                        <a href="index.html">Case study</a>
+                        <a href="index.html#case-study">Case study</a>
                     </li>
                     <li>
-                        <a href="about-me.html">about</a>
+                        <a href="about-me.html">About</a>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1AkcGe9_hl-kHi8liKCEJ0oyarJIPrNSs/view" target="_blank">resume</a>
+                        <a href="https://drive.google.com/file/d/1AkcGe9_hl-kHi8liKCEJ0oyarJIPrNSs/view" target="_blank">Resume</a>
                     </li>
                     <li>
-                        <a href="mailto:h.hiroe.ito@gmail.com">contact</a>
+                        <a href="mailto:h.hiroe.ito@gmail.com">Contact</a>
                     </li>
                 </ul>
             </div>
