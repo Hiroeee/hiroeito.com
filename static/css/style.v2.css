@@ -846,8 +846,8 @@ hr {
 
   .menu-toggler .line {
     width: 40px;
-    height: 1px;
-    background: #000;
+    height: 1.6px;
+    background: rgb(66, 68, 88);
   }
 
   .menu-toggler .line:nth-child(1) {
@@ -920,7 +920,7 @@ hr {
   }
 
   .menu[data-open="1"] .line {
-    top: 20px;
+    top: 14px;
     right: 0;
   }
 
