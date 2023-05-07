@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>"Lasso" UX/UI case study</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/imgs/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/static/imgs/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/static/imgs/favicon-16x16.png">
+        <link rel="manifest" href="/static/imgs/site.webmanifest">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="UX, UI, product, web, designer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/css/reset.css">
+        <link rel="stylesheet" href="static/css/style.v2.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <!-- Primary Meta Tags -->
+        <title>Hiroe Ito - UX/UI designer</title>
+        <meta name="title" content="Hiroe Ito - UX/UI designer">
+        <meta name="description" content="A designer with a psychology and branding background, specialising in UX/UI design for digital products.
+        
+        I translate complex problems into meaningful, productive and profitable designs!">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://www.hiroeito.com/">
+        <meta property="og:title" content="Hiroe Ito - UX/UI designer">
+        <meta property="og:description" content="A designer with a psychology and branding background, specialising in UX/UI design for digital products.
+        
+        I translate complex problems into meaningful, productive and profitable designs!">
+        <meta property="og:image" content="static/imgs/meta.jpg">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://www.hiroeito.com/">
+        <meta property="twitter:title" content="Hiroe Ito - UX/UI designer">
+        <meta property="twitter:description" content="A designer with a psychology and branding background, specialising in UX/UI design for digital products.
+        
+        I translate complex problems into meaningful, productive and profitable designs!">
+        <meta property="twitter:image" content="static/imgs/meta.jpg">   
+        <script>
+            window.addEventListener('load', function () {
+                document.addEventListener('scroll', () => {
+                    if (window.scrollY <= 1200) {
+                        document.querySelector('.footer-scroll a').classList.add('hide')
+                    } else {
+                        document.querySelector('.footer-scroll a').classList.remove('hide')
+                    }
+                });
+
+                document.querySelector('.menu-toggler').addEventListener('click', () => {
+                    menu = document.querySelector('.menu');
+                    menuToggler = document.querySelector('.menu-toggler');
+
+                    let status = menu.getAttribute('data-open') === "1" ? 0 : 1;
+
+                    console.log(status);
+
+                    menu.setAttribute('data-open', status);
+                });
+            });
+        </script>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+           })(window,document,'script','dataLayer','GTM-533W5JJ');</script>
+           <!-- End Google Tag Manager -->
+           <!-- Google tag (gtag.js) -->
+           <script async src="https://www.googletagmanager.com/gtag/js?id=G-C523N4LTXL"></script>
+           <script>
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+           gtag('config', 'G-C523N4LTXL');
+        </script>   
+    </head>
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-533W5JJ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div class="header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <span class="circle-logo"></span>
+                </a>
+            </div>
+            <div class="menu" data-open="0">
+                <div class="menu-toggler">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html#case-study">Case study</a>
+                    </li>
+                    <li>
+                        <a href="about-me.html">About</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1CWovuaK5zhruVc6Gqf6n8-xCfQ4WbA78/view?usp=share_link" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="mailto:h.hiroe.ito@gmail.com">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-wrapper">
+            <div class="case-hero">
+                <div class="col-center hero-imag-container">
+                    <img src="static/imgs/lasso/responsive.jpg" alt="Lasso Hero image">
+                </div>
+                <div class="head-text-box">
+                    <h1>Lasso</h1>
+                    <p>Website design for AI creator marketing startup - UX/UI design</p>
+                </div>
+                <div class="case-desc-container">
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Where:</h4><p>Remote</p>
+                        </div>
+                    </div>
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>What:</h4><p>Responsive website</p>
+                        </div>
+                    </div>
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Why:</h4><p>Commercial</p>
+                        </div>
+                    </div>
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Role:</h4><p>UX/UI Designer</p>
+                        </div>
+                    </div>
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>Category:</h4><p>Entertainment</p>
+                        </div>
+                    </div>
+                    <div class="text-box-three-row">
+                        <div class="text-box">
+                            <h4>When:</h4><p>March 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="emphasize">
+                <div class="title-text-box">
+                    <h1>Client and project</h1>
+                </div>
+                <div class="smaller-container">
+                    <div class="text-box">
+                        <h5>Lasso was started to empower creators across the world to grow their professional brands by leveraging the world's most powerful technology - AI.<br><br>
+                            The founders experienced firsthand the pain of scaling influencer and creator marketing after working with the world's fastest-growing DTC and SaaS companies. Reaching your audience through partnerships should never be this hard, which is why Lasso was built for.<br><br>
+                            The company is about to launch an innovative AI project with a "LinkedIn for creators" theme but with added creativity. We have developed a website to encourage user sign-ups and validate their new project scope.
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-center hero-imag-container">
+                    <img src="static/imgs/lasso/mobile-hero.jpg" alt="Three mobile screens of Lasso landing page and product features">
+                </div>
+                <div class="general-container">
+                    <div class="column-container">
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h3>-Process:</h3>
+                                <h5>I planned the design through the following 8 stages:</h5>
+                                <h5>1. 🎯 Project Definition & Scope</h5>
+                                <h5>2. 💕 Understanding the Problem</h5>
+                                <h5>3. 🔍 Competitive Research</h5>
+                                <h5>4. 💡 Ideation</h5>
+                                <h5>5. 📲 High-Fidelity Mockups and Prototypes</h5>
+                                <h5>6. 🔬 Usability Testing</h5>
+                                <h5>7. 🙌 Design Handoff</h5>
+                                <h5>8. 👀 Quality Assurance</h5>
+                            </div>
+                        </div>
+                        <div class="smaller-container">
+                            <div class="text-box">
+                                <h3>-The team:</h3>
+                                <h5>CEO</h5>
+                                <h5>Project Manager</h5>
+                                <h5>Engineer</h5>
+                                <h5>UX/UI designer(myself)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <div class="smaller-container">
+                            <h3>-Problems:</h3>
+                            <h5>The company conducted user research and identified several pain points experienced by users. </h5>
+                            <div class="col-center hero-imag-container">
+                                <img src="static/imgs/lasso/problems.jpg" alt="3 problems descriptions">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="challenge-container">
+                    <div class="title-text-box">
+                        <h5>Challenge:</h5>
+                        <h3>☝️ Strike a balance of Creator x Professionalism with visual design.</h3><br>
+                        <h3>✌️ As a new player in the market, we want more commercial design that should appeal to a wider audience.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="define">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Understanding users</h1>
+                    </div>
+                    <div class="title-text-box">
+                        <h3>-Persona</h3>
+                        <h5>Based on the user research conducted by the company, I identify the problem from the user's perspective and create 3 types of user personas.</h5><br>
+                        <h5>1. Pro-creator</h5>
+                        <h5>2. Part-time creator</h5>
+                        <h5>3. Company - Brand deal officer</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/persona-1.jpg" alt="Professional creator persona details">
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/persona-2.jpg" alt="Part-time creator persona details">
+                    </div>
+                    <div class="col-center hero-imag-container">
+                        <img src="static/imgs/lasso/persona-3.jpg" alt="Brand deal officer persona">
+                    </div>
+                </div>
+                <div class="title-text-box">
+                    <h3>-Competitive analysis:</h3>
+                    <h5>Before starting the design. I conducted a competitive analysis to understand the market better.</h5>
+                </div>
+                <div class="col-center hero-img-container">
+                    <img src="static/imgs/lasso/competitive.jpg" alt="Competitive analysis result">
+                </div>
+            </div>
+            <div class="difine">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Ideation Process</h1>
+                        <h3>-Mood-board:</h3>
+                        <h5>To ensure a cohesive design, we began by defining the concept's tone and created mood boards with both dark and light themes.<br> The CEO expressed a preference for the dark mode, which conveys a futuristic and premium vibe. As a result, we chose to incorporate a pastel accent into the dark mode design for this project.</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/moodboard-dark.jpg" alt="Mood board - dark theme">
+                        <img src="static/imgs/lasso/moodboard-light.jpg" alt="Mood board - light theme">
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h3>-Idea generations: </h3>
+                        <h5>To represent our future users, we opted for 3D illustration avatars as we currently don't have active users. This choice gives a more realistic touch. <br>
+                            We aim for abstract product screens that provide a glimpse of our product. Our next plan is to elevate the demo product design to a modern, clean look.<br> 
+                            I then create a Mid-fidelity wireframe based on these rough sketches to share with stakeholders.</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/wireframe.jpg" alt="Mid-fidelity wireframe picture">
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h4>-Design iterations: </h4>
+                        <h5>Next, I created detailed high-fidelity wireframes that were thoroughly tested with users to ensure optimal user experience and usability.</h5>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="title-text-box">
+                            <h4>Design Annotations - Version 1</h4>
+                        </div>
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/version-1.jpg" alt="Design Annotation - version.1">
+                        </div>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="title-text-box">
+                            <h3>Design Annotations - Final version</h3>
+                        </div>
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/final-version.jpg" alt="Design Annotation - final version">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="define">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Design system</h1>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/colour.jpg" alt="design system colour palette">
+                        </div>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/typescale.jpg" alt="Lasso design system type scale stylesheet">
+                        </div>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/grids.jpg" alt="Lasso design system grid for web and mobile designs">
+                        </div>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/components.jpg" alt="Lasso design system components">
+                        </div>
+                    </div>
+                    <div class="smaller-container">
+                        <div class="col-center hero-img-container">
+                            <img src="static/imgs/lasso/images.jpg" alt="Lasso design system avatar and icon visuals">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="define">
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h1>Final design</h1>
+                        <h3>-Responsive Design:</h3>
+                        <h5>Our top priority is to provide an exceptional user experience. We have made it effortless for users to engage with our website, which can be accessed easily on any device.</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/tablet-mob.jpg" alt="2 tablets and 2 mobile screens with Lasso website screens">
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h3>-Accessibility considerations:</h3>
+                        <h5>The color contrast ratio meets the WCAG Level AAA standards. Additionally, the body type size is slightly larger than the standard size.<br> The CTA button size has also been optimized for easier selection by making it larger.</h5>
+                    </div>
+                </div>
+                <div class="general-container">
+                    <div class="title-text-box">
+                        <h3>-Final Prototype</h3>
+                        <h5>I use prototyping tools and HTML/CSS to generate high-fidelity design prototypes for the project.<br>
+                            The outcomes are available at: https://hiroeee.github.io/lasso-lp/</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/web.jpg" alt="Lasso web pages examples">
+                    </div>
+                </div>
+                <div class="general-container">   
+                    <div class="title-text-box">
+                        <h1>Conclusion</h1>
+                        <h3>-Learnings:</h3>
+                        <h5>I have realized the significance of design principles, especially in creating self-explanatory UX/UI designs. Through this project, I was able to enhance my skills in two areas that are valuable to me. <br>
+                            Firstly, I learned how to effectively communicate using visuals by utilising project communication tools such as Slack, Figma, and Google Meet. <br>
+                            Secondly, I led the project from the designer's perspective, applying user-centred approaches, and defending my design decisions with clear explanations to manage stakeholders.</h5>
+                    </div> 
+                    <div class="title-text-box">
+                        <h3>-Next steps:</h3>
+                        <h5>In this project, UX copy was not given much priority. Some of the copies are lengthy and lack clarity.<br> It would be beneficial to prioritize improving the UX copy for the next. Additionally, the design should be adjusted based on the results of validation testing.</h5>
+                    </div>
+                    <div class="col-center hero-img-container">
+                        <img src="static/imgs/lasso/bespoke.jpg" alt="PC with Lasso product screen on a table">
+                    </div>
+                </div>
+            </div><hr>
+            <div class="daily-container">
+                <div class="footer-container">
+                    <div class="footer-text-box">  
+                        <h1 class="title-grad-short">Get in touch!</h1>
+                        <a href="mailto:h.hiroe.ito@gmail.com">h.hiroe.ito@gmail.com</a>
+                    </div>
+                    <div class="footer-text-box">
+                        <a id="button" href="https://drive.google.com/file/d/1CWovuaK5zhruVc6Gqf6n8-xCfQ4WbA78/view?usp=share_link" target="_blank">Resume<i class="material-icons">call_made</i></a>
+                    </div>
+                </div>
+                <div class="footer-scroll">
+                    <a href="#">
+                        <img src="static/imgs/scroll-up.png" alt="scroll-up">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container">
+          <img src="static/imgs/name.jpg" alt="name">
+        </div>
+    </body>
+</html>
